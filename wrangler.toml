@@ -1,0 +1,11 @@
+name = "drive"
+type = "webpack"
+account_id = "6f91d0f34affd0791c0d69aa6512bddb"
+zone_id = "1b2d5b5233e5828538f42c26b0614411"
+workers_dev = true
+kv_namespaces = [
+		 { binding = "BUCKET", id = "2eef67d0ee5e485992399a9dd11179cb" }
+]
+
+[env.staging]
+name = "drive-staging"
